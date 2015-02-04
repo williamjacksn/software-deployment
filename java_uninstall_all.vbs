@@ -1,4 +1,3 @@
-Set fs = CreateObject("Scripting.FileSystemObject")
 Set sh = CreateObject("WScript.Shell")
 Set wi = CreateObject("WindowsInstaller.Installer")
 
