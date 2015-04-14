@@ -14,7 +14,7 @@ goto []
 
 :[uninstall]
 eventcreate /l application /t information /so SCCM /id 3 /d "Beginning %app_name% uninstall"
-msiexec.exe /uninstall {AC76BA86-7AD7-1033-7B44-AB0000000001} /quiet /norestart /l*v "%windir%\Temp\_%app_file_name%_uninstall.log"
+msiexec.exe /uninstall {ac76ba86-7ad7-1033-7b44-ac0f074e4100} /quiet /norestart /l*v "%windir%\Temp\_%app_file_name%_uninstall.log"
 eventcreate /l application /t information /so SCCM /id 4 /d "Ending %app_name% uninstall"
 goto []
 
